@@ -11,7 +11,7 @@ This project implements a concurrent TCP echo server and client:
 
 ## Requirements
 
-- Rust 1.70+ (uses 2024 edition)
+- Rust 1.60+ (uses 2021 edition)
 - Tokio async runtime
 
 ## Building
