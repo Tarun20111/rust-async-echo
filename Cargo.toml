@@ -5,4 +5,4 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0"
-tokio = { version = "1.47", features = ["rt", "net", "io-util", "macros", "rt-multi-thread"] }
+tokio = { version = "1.47", features = ["rt", "net", "io-util", "macros", "rt-multi-thread", "signal", "time"] }

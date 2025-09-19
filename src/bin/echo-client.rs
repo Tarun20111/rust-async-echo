@@ -18,7 +18,10 @@ async fn main() -> Result<()> {
             return Err(anyhow!("got error in connect:{err}"));
         }
     };
+    println!("Client: connected to server at 127.0.0.1:9000");
+
     let message = &args[1];
+    println!("Client: sending message: {message}");
 
     match stream.write_all(message.as_bytes()).await {
         Ok(()) => {}
@@ -26,8 +29,6 @@ async fn main() -> Result<()> {
             return Err(anyhow!("write error: {err}, sending to socket"));
         }
     }
-
-    stream.shutdown().await?;
 
     let mut buf = vec![0; 1024];
 
@@ -42,6 +43,7 @@ async fn main() -> Result<()> {
             return Err(anyhow!("read error: {err}"));
         }
     };
+
     if read_len > 0 {
         // ---
         let msg = match std::str::from_utf8(&buf[0..read_len]) {
@@ -50,7 +52,7 @@ async fn main() -> Result<()> {
                 return Err(anyhow!("Read back garbled none UTF msg from server:{err}"));
             }
         };
-        println!("got response:{msg} from server");
+        println!("Client: got response:{msg} from server");
         Ok(())
     } else {
         Err(anyhow!("Got zero bytes on read back from server"))

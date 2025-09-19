@@ -84,6 +84,16 @@ $ cargo run --bin echo-client "Another message"
 got response:Another message from server
 ```
 
+## Shutdown in server terminal
+
+When you enter `Control-c` in the server terminal you should see:
+
+```
+^C
+Server: Received Ctrl+C, shutting down gracefully...
+Server: shutdown complete
+```
+
 ## Architecture
 
 - **Async/Concurrent**: Uses Tokio for non-blocking I/O and spawns tasks for each client connection
